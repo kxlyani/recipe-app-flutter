@@ -43,3 +43,22 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Flutter/Dart-specific ignores
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+
+# IDE-specific ignores
+.idea/
+.vscode/
+
+# Flutter dependency-related ignores
+pubspec.lock
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# iOS-specific ignores
+ios/Pods/
